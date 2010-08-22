@@ -19,7 +19,7 @@ echo "
     DirectoryIndex index.php
 
 	DocumentRoot /var/www/project/$projectNs/$projectType/$domain/
-	<Directory /var/www/project/$projectType/$projectType/$domain/>
+	<Directory /var/www/project/$projectNs/$projectType/$domain>
 		Options Indexes FollowSymLinks MultiViews ExecCGI
 		AllowOverride All
 		Order allow,deny
